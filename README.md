@@ -21,7 +21,7 @@ The Lafarge Time Sheet is designed to facilitate time tracking for employees. It
 - **Admin Access:**
   - Administrators can log in with the credentials:
     - Email: adminaccount@lafarge.com
-    - Password: "Admin@Lafarge247
+    - Password: Admin@Lafarge247
 
 ## Technologies Used
 
