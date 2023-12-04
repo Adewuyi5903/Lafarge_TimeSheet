@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center mt-5">
+    @if (TempData["Success"] != null)
+    {
+        <div class="col-md-12 alert alert-success">
+            <span><b>Success!</b> - @TempData["Success"] </span>
+        </div>
+    }
+    <h1 class="display-4">Welcome To Lafarge</h1>
+    <div>
+        <a class="btn btn-outline-success my-2 my-sm-0" asp-controller="TimeEntry" asp-action="ClockIn">
+            ClockIn
+        </a>
+
+        <a class="btn btn-outline-warning my-2 my-sm-0" asp-controller="TimeEntry" asp-action="ClockOut">
+            ClockOut
+        </a>
+    </div>
+</div>
